@@ -131,7 +131,7 @@
       "doc": "tasks/T007.md",
       "phase": "0-foundation",
       "priority": "critical",
-      "status": "in_progress",
+      "status": "review",
       "estimated_minutes": 30,
       "dependencies": [
         "T001"
