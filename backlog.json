@@ -80,7 +80,7 @@
       "doc": "tasks/T004.md",
       "phase": "0-foundation",
       "priority": "critical",
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T003"
@@ -88,7 +88,8 @@
       "tags": [
         "auth",
         "session"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T005",
