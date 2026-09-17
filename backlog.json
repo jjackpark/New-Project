@@ -494,7 +494,7 @@
       "doc": "tasks/T026.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T025"
@@ -502,7 +502,8 @@
       "tags": [
         "ui",
         "master-plan"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T027",
@@ -511,7 +512,7 @@
       "doc": "tasks/T027.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T026",
@@ -521,7 +522,8 @@
         "ui",
         "form",
         "master-plan"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T028",
@@ -566,7 +568,7 @@
       "doc": "tasks/T030.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T028"
@@ -574,7 +576,8 @@
       "tags": [
         "ui",
         "qual"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T031",
@@ -583,7 +586,7 @@
       "doc": "tasks/T031.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T029",
@@ -592,7 +595,8 @@
       "tags": [
         "ui",
         "qual-run"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T032",
@@ -620,7 +624,7 @@
       "doc": "tasks/T033.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T032"
@@ -628,7 +632,8 @@
       "tags": [
         "ui",
         "issues"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T034",
@@ -637,7 +642,7 @@
       "doc": "tasks/T034.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T033"
@@ -646,7 +651,8 @@
         "ui",
         "form",
         "issues"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T035",
@@ -673,7 +679,7 @@
       "doc": "tasks/T036.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T035"
@@ -681,7 +687,8 @@
       "tags": [
         "ui",
         "alarms"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T037",
@@ -708,7 +715,7 @@
       "doc": "tasks/T038.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T037",
@@ -717,7 +724,8 @@
       "tags": [
         "logic",
         "daily-report"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T039",
@@ -726,7 +734,7 @@
       "doc": "tasks/T039.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T038"
@@ -734,7 +742,8 @@
       "tags": [
         "ui",
         "daily-report"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T040",
