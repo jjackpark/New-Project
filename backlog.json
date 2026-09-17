@@ -209,7 +209,7 @@
       "doc": "tasks/T011.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T010",
@@ -219,7 +219,8 @@
         "ui",
         "settings",
         "users"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T012",
@@ -246,7 +247,7 @@
       "doc": "tasks/T013.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T012",
@@ -255,7 +256,8 @@
       "tags": [
         "ui",
         "projects"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T014",
@@ -283,7 +285,7 @@
       "doc": "tasks/T015.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T014",
@@ -293,7 +295,8 @@
       "tags": [
         "ui",
         "equipment"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T016",
@@ -302,7 +305,7 @@
       "doc": "tasks/T016.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T015",
@@ -312,7 +315,8 @@
         "ui",
         "equipment",
         "form"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T017",
@@ -358,7 +362,7 @@
       "doc": "tasks/T019.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T017",
@@ -367,7 +371,8 @@
       "tags": [
         "ui",
         "vendors"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T020",
@@ -376,7 +381,7 @@
       "doc": "tasks/T020.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T018",
@@ -385,7 +390,8 @@
       "tags": [
         "ui",
         "personnel"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T021",
@@ -413,7 +419,7 @@
       "doc": "tasks/T022.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T021"
@@ -421,7 +427,8 @@
       "tags": [
         "ui",
         "settings"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T023",
@@ -430,7 +437,7 @@
       "doc": "tasks/T023.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T003",
@@ -441,7 +448,8 @@
         "ui",
         "settings",
         "master-plan"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T024",
@@ -450,7 +458,7 @@
       "doc": "tasks/T024.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T018"
@@ -458,7 +466,8 @@
       "tags": [
         "ui",
         "component"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T025",
