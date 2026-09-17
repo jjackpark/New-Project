@@ -1,0 +1,193 @@
+<svg viewBox="0 0 1300 980" xmlns="http://www.w3.org/2000/svg" font-family="Malgun Gothic, sans-serif">
+  <rect width="1300" height="980" fill="#f2f4f7"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="200" height="980" fill="#14213d"/>
+  <text x="24" y="42" fill="#ffffff" font-size="18" font-weight="700">Setup</text>
+  <text x="24" y="64" fill="#ffffff" font-size="18" font-weight="700">Manager</text>
+
+  <g font-size="13" fill="#cbd5e1">
+    <rect x="0" y="96" width="200" height="34" fill="#2f6feb" opacity="0.22"/>
+    <rect x="0" y="96" width="3" height="34" fill="#2f6feb"/>
+    <text x="24" y="117" fill="#ffffff" font-weight="600">메인 화면</text>
+    <text x="24" y="151">프로젝트</text>
+    <text x="24" y="185">설비 현황</text>
+    <text x="24" y="219">업체 / 인력</text>
+    <text x="24" y="253">마스터 플랜</text>
+    <text x="24" y="287">Qual / 런평가</text>
+    <text x="24" y="321">이슈리스트</text>
+    <text x="24" y="355">알람 관리</text>
+    <text x="24" y="389">일보</text>
+    <text x="24" y="423">캘린더</text>
+    <text x="24" y="457">사진관리</text>
+    <text x="24" y="491">검색</text>
+    <text x="24" y="525">설정</text>
+  </g>
+
+  <!-- Topbar -->
+  <rect x="200" y="0" width="1100" height="56" fill="#ffffff" stroke="#e3e7ee"/>
+  <text x="224" y="34" font-size="12" fill="#6b7280">프로젝트</text>
+  <rect x="284" y="16" width="180" height="26" rx="6" fill="#ffffff" stroke="#e3e7ee"/>
+  <text x="296" y="34" font-size="12" fill="#1f2937">샘플 프로젝트 ▾</text>
+  <text x="1170" y="34" font-size="12" fill="#1f2937">박재형 (관리자)</text>
+
+  <!-- Page title -->
+  <text x="224" y="90" font-size="19" fill="#1f2937" font-weight="700">메인 화면</text>
+  <text x="224" y="110" font-size="12" fill="#6b7280">선택한 프로젝트의 현재 현황입니다.</text>
+
+  <!-- KPI cards -->
+  <g>
+    <g>
+      <rect x="224" y="128" width="250" height="86" rx="10" fill="#ffffff" stroke="#e3e7ee"/>
+      <text x="246" y="156" font-size="12" fill="#6b7280">전체 설비</text>
+      <text x="246" y="192" font-size="26" fill="#1f2937" font-weight="700">5대</text>
+    </g>
+    <g>
+      <rect x="490" y="128" width="250" height="86" rx="10" fill="#ffffff" stroke="#e3e7ee"/>
+      <text x="512" y="156" font-size="12" fill="#6b7280">미해결 이슈</text>
+      <text x="512" y="192" font-size="26" fill="#dc2626" font-weight="700">2건</text>
+    </g>
+    <g>
+      <rect x="756" y="128" width="250" height="86" rx="10" fill="#ffffff" stroke="#e3e7ee"/>
+      <text x="778" y="156" font-size="12" fill="#6b7280">진행중 알람</text>
+      <text x="778" y="192" font-size="26" fill="#d97706" font-weight="700">1건</text>
+    </g>
+    <g>
+      <rect x="1022" y="128" width="252" height="86" rx="10" fill="#ffffff" stroke="#e3e7ee"/>
+      <text x="1044" y="156" font-size="12" fill="#6b7280">금일 작성 일보</text>
+      <text x="1044" y="192" font-size="26" fill="#16a34a" font-weight="700">4/5건</text>
+    </g>
+  </g>
+
+  <!-- Equipment status row -->
+  <text x="224" y="248" font-size="14" fill="#1f2937" font-weight="700">설비 현황</text>
+  <g font-size="11">
+    <g transform="translate(224,262)">
+      <rect width="192" height="104" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+      <text x="14" y="24" fill="#1f2937" font-weight="700" font-size="13">A설비</text>
+      <rect x="130" y="10" width="52" height="18" rx="9" fill="#dcfce7"/>
+      <text x="140" y="23" fill="#16a34a" font-weight="600">가동중</text>
+      <text x="14" y="46" fill="#6b7280">모델 VI-8800</text>
+      <text x="14" y="64" fill="#6b7280">업체 A업체</text>
+      <text x="14" y="82" fill="#6b7280">담당 박재형</text>
+    </g>
+    <g transform="translate(432,262)">
+      <rect width="192" height="104" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+      <text x="14" y="24" fill="#1f2937" font-weight="700" font-size="13">B설비</text>
+      <rect x="130" y="10" width="52" height="18" rx="9" fill="#e5e7eb"/>
+      <text x="140" y="23" fill="#6b7280" font-weight="600">대기</text>
+      <text x="14" y="46" fill="#6b7280">모델 VI-7700</text>
+      <text x="14" y="64" fill="#6b7280">업체 B업체</text>
+      <text x="14" y="82" fill="#6b7280">담당 이지현</text>
+    </g>
+    <g transform="translate(640,262)">
+      <rect width="192" height="104" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+      <text x="14" y="24" fill="#1f2937" font-weight="700" font-size="13">C설비</text>
+      <rect x="130" y="10" width="52" height="18" rx="9" fill="#dcfce7"/>
+      <text x="140" y="23" fill="#16a34a" font-weight="600">가동중</text>
+      <text x="14" y="46" fill="#6b7280">모델 VI-7700</text>
+      <text x="14" y="64" fill="#6b7280">업체 A업체</text>
+      <text x="14" y="82" fill="#6b7280">담당 김인수</text>
+    </g>
+    <g transform="translate(848,262)">
+      <rect width="192" height="104" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+      <text x="14" y="24" fill="#1f2937" font-weight="700" font-size="13">D설비</text>
+      <rect x="130" y="10" width="52" height="18" rx="9" fill="#fee2e2"/>
+      <text x="140" y="23" fill="#dc2626" font-weight="600">알람</text>
+      <text x="14" y="46" fill="#6b7280">모델 VI-8800</text>
+      <text x="14" y="64" fill="#6b7280">업체 C업체</text>
+      <text x="14" y="82" fill="#6b7280">담당 최용준</text>
+    </g>
+    <g transform="translate(1056,262)">
+      <rect width="192" height="104" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+      <text x="14" y="24" fill="#1f2937" font-weight="700" font-size="13">E설비</text>
+      <rect x="130" y="10" width="52" height="18" rx="9" fill="#dcfce7"/>
+      <text x="140" y="23" fill="#16a34a" font-weight="600">가동중</text>
+      <text x="14" y="46" fill="#6b7280">모델 VI-6600</text>
+      <text x="14" y="64" fill="#6b7280">업체 B업체</text>
+      <text x="14" y="82" fill="#6b7280">담당 박재형</text>
+    </g>
+  </g>
+
+  <!-- Two column: 업체별 인원수 today / 최근 이슈,알람 -->
+  <g transform="translate(224,398)">
+    <rect width="500" height="230" rx="10" fill="#ffffff" stroke="#e3e7ee"/>
+    <text x="20" y="30" font-size="14" fill="#1f2937" font-weight="700">금일 업체별 투입 인원 (일보 연동)</text>
+    <g font-size="12" fill="#1f2937">
+      <text x="20" y="64" fill="#6b7280">업체</text>
+      <text x="220" y="64" fill="#6b7280">리더</text>
+      <text x="380" y="64" fill="#6b7280">인원수</text>
+      <line x1="20" y1="74" x2="480" y2="74" stroke="#e3e7ee"/>
+
+      <text x="20" y="100">A업체</text><text x="220" y="100">정민호</text><text x="380" y="100">4명</text>
+      <line x1="20" y1="110" x2="480" y2="110" stroke="#e3e7ee"/>
+      <text x="20" y="136">B업체</text><text x="220" y="136">강수진</text><text x="380" y="136">3명</text>
+      <line x1="20" y1="146" x2="480" y2="146" stroke="#e3e7ee"/>
+      <text x="20" y="172">C업체</text><text x="220" y="172">오태식</text><text x="380" y="172">2명</text>
+      <line x1="20" y1="182" x2="480" y2="182" stroke="#e3e7ee"/>
+      <text x="20" y="208" font-weight="700">합계</text><text x="380" y="208" font-weight="700">9명</text>
+    </g>
+  </g>
+
+  <g transform="translate(748,398)">
+    <rect width="526" height="230" rx="10" fill="#ffffff" stroke="#e3e7ee"/>
+    <text x="20" y="30" font-size="14" fill="#1f2937" font-weight="700">최근 이슈 / 알람</text>
+    <g font-size="12" fill="#1f2937">
+      <text x="20" y="64" fill="#6b7280">시간</text>
+      <text x="90" y="64" fill="#6b7280">설비</text>
+      <text x="170" y="64" fill="#6b7280">내용</text>
+      <text x="420" y="64" fill="#6b7280">구분</text>
+      <line x1="20" y1="74" x2="506" y2="74" stroke="#e3e7ee"/>
+
+      <text x="20" y="100">09:48</text><text x="90" y="100">C설비</text><text x="170" y="100">생산 파라미터 수정</text>
+      <rect x="418" y="88" width="52" height="18" rx="9" fill="#fef3c7"/><text x="428" y="101" fill="#d97706" font-size="11">이슈</text>
+      <line x1="20" y1="110" x2="506" y2="110" stroke="#e3e7ee"/>
+
+      <text x="20" y="136">10:12</text><text x="90" y="136">A설비</text><text x="170" y="136">레시피 적용 완료</text>
+      <rect x="418" y="124" width="52" height="18" rx="9" fill="#dcfce7"/><text x="428" y="137" fill="#16a34a" font-size="11">완료</text>
+      <line x1="20" y1="146" x2="506" y2="146" stroke="#e3e7ee"/>
+
+      <text x="20" y="172">11:05</text><text x="90" y="172">D설비</text><text x="170" y="172">IO 체크 알람 발생</text>
+      <rect x="418" y="160" width="52" height="18" rx="9" fill="#fee2e2"/><text x="428" y="173" fill="#dc2626" font-size="11">알람</text>
+    </g>
+  </g>
+
+  <!-- 최근 사진 -->
+  <g transform="translate(224,648)">
+    <text x="0" y="0" font-size="14" fill="#1f2937" font-weight="700">최근 등록 사진</text>
+    <text x="1050" y="0" font-size="12" fill="#2f6feb" text-anchor="end">전체보기 ›</text>
+
+    <g transform="translate(0,16)">
+      <rect width="240" height="160" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+      <rect x="10" y="10" width="220" height="112" rx="6" fill="#dbeafe"/>
+      <text x="120" y="70" font-size="11" fill="#93a5c9" text-anchor="middle">사진</text>
+      <text x="14" y="140" font-size="11" fill="#1f2937">A설비 · IO체크 완료</text>
+      <text x="14" y="154" font-size="10" fill="#9ca3af">09-16 14:20 · 박재형</text>
+    </g>
+    <g transform="translate(266,16)">
+      <rect width="240" height="160" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+      <rect x="10" y="10" width="220" height="112" rx="6" fill="#dbeafe"/>
+      <text x="120" y="70" font-size="11" fill="#93a5c9" text-anchor="middle">사진</text>
+      <text x="14" y="140" font-size="11" fill="#1f2937">D설비 · 알람 발생 현장</text>
+      <text x="14" y="154" font-size="10" fill="#9ca3af">09-16 11:05 · 최용준</text>
+    </g>
+    <g transform="translate(532,16)">
+      <rect width="240" height="160" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+      <rect x="10" y="10" width="220" height="112" rx="6" fill="#dbeafe"/>
+      <text x="120" y="70" font-size="11" fill="#93a5c9" text-anchor="middle">사진</text>
+      <text x="14" y="140" font-size="11" fill="#1f2937">C설비 · 레시피 적용 전</text>
+      <text x="14" y="154" font-size="10" fill="#9ca3af">09-16 09:40 · 김인수</text>
+    </g>
+    <g transform="translate(798,16)">
+      <rect width="240" height="160" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+      <rect x="10" y="10" width="220" height="112" rx="6" fill="#dbeafe"/>
+      <text x="120" y="70" font-size="11" fill="#93a5c9" text-anchor="middle">사진</text>
+      <text x="14" y="140" font-size="11" fill="#1f2937">E설비 · 셋업 완료</text>
+      <text x="14" y="154" font-size="10" fill="#9ca3af">09-15 17:12 · 박재형</text>
+    </g>
+  </g>
+
+  <!-- Bottom note -->
+  <text x="224" y="850" font-size="11" fill="#9ca3af">* 실제 수치/텍스트/설비명은 예시입니다. 카드·표 레이아웃과 정보 위계(제목→KPI→설비카드→업체/이슈 요약→최근 사진) 참고용 와이어프레임입니다.</text>
+  <text x="224" y="872" font-size="11" fill="#9ca3af">* 텍스트 짤림 방지 3단계: 글자수 제한 → 자동 축소 → 말줄임+툴팁 (SPEC.md 7장 참고)</text>
+</svg>
