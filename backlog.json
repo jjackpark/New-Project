@@ -868,7 +868,7 @@
       "doc": "tasks/T046.md",
       "phase": "3-visualization",
       "priority": 3,
-      "status": "todo",
+      "status": "in_progress",
       "estimated_minutes": 30,
       "dependencies": [
         "T045"
@@ -876,7 +876,8 @@
       "tags": [
         "ui",
         "report"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T047",
