@@ -847,7 +847,7 @@
       "doc": "tasks/T045.md",
       "phase": "3-visualization",
       "priority": 3,
-      "status": "in_progress",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T037",
