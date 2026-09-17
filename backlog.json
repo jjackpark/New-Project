@@ -62,7 +62,7 @@
       "doc": "tasks/T003.md",
       "phase": "0-foundation",
       "priority": "critical",
-      "status": "todo",
+      "status": "in_progress",
       "estimated_minutes": 30,
       "dependencies": [
         "T002"
@@ -70,7 +70,8 @@
       "tags": [
         "db",
         "schema"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T004",
@@ -96,7 +97,7 @@
       "doc": "tasks/T005.md",
       "phase": "0-foundation",
       "priority": "critical",
-      "status": "todo",
+      "status": "in_progress",
       "estimated_minutes": 30,
       "dependencies": [
         "T002"
@@ -104,7 +105,8 @@
       "tags": [
         "ui",
         "layout"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T006",
