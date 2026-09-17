@@ -116,7 +116,7 @@
       "doc": "tasks/T006.md",
       "phase": "0-foundation",
       "priority": "critical",
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T005"
@@ -124,7 +124,8 @@
       "tags": [
         "state",
         "project-scope"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T007",
@@ -152,7 +153,7 @@
       "doc": "tasks/T008.md",
       "phase": "0-foundation",
       "priority": "critical",
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T005"
@@ -161,7 +162,8 @@
         "ui",
         "component",
         "enum"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T009",
@@ -170,7 +172,7 @@
       "doc": "tasks/T009.md",
       "phase": "0-foundation",
       "priority": "critical",
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T005"
@@ -179,7 +181,8 @@
         "ui",
         "component",
         "ux"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T010",
