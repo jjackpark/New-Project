@@ -191,7 +191,7 @@
       "doc": "tasks/T010.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T003"
@@ -199,7 +199,8 @@
       "tags": [
         "api",
         "users"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T011",
@@ -227,7 +228,7 @@
       "doc": "tasks/T012.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T003"
@@ -235,7 +236,8 @@
       "tags": [
         "api",
         "projects"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T013",
@@ -262,7 +264,7 @@
       "doc": "tasks/T014.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T003",
@@ -271,7 +273,8 @@
       "tags": [
         "api",
         "equipment"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T015",
@@ -318,7 +321,7 @@
       "doc": "tasks/T017.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T003",
@@ -327,7 +330,8 @@
       "tags": [
         "api",
         "vendors"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T018",
@@ -336,7 +340,7 @@
       "doc": "tasks/T018.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T017"
@@ -344,7 +348,8 @@
       "tags": [
         "api",
         "personnel"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T019",
@@ -389,7 +394,7 @@
       "doc": "tasks/T021.md",
       "phase": "1-core-data",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T003",
@@ -398,7 +403,8 @@
       "tags": [
         "api",
         "role-options"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T022",
