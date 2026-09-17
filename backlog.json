@@ -476,7 +476,7 @@
       "doc": "tasks/T025.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T023"
@@ -484,7 +484,8 @@
       "tags": [
         "api",
         "master-plan"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T026",
@@ -529,7 +530,7 @@
       "doc": "tasks/T028.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T014"
@@ -537,7 +538,8 @@
       "tags": [
         "api",
         "qual"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T029",
@@ -546,7 +548,7 @@
       "doc": "tasks/T029.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T028"
@@ -554,7 +556,8 @@
       "tags": [
         "api",
         "qual-run"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T030",
@@ -598,7 +601,7 @@
       "doc": "tasks/T032.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T014",
@@ -607,7 +610,8 @@
       "tags": [
         "api",
         "issues"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T033",
@@ -651,7 +655,7 @@
       "doc": "tasks/T035.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T014"
@@ -659,7 +663,8 @@
       "tags": [
         "api",
         "alarms"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T036",
@@ -685,7 +690,7 @@
       "doc": "tasks/T037.md",
       "phase": "2-core-input",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T017"
@@ -693,7 +698,8 @@
       "tags": [
         "api",
         "daily-report"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T038",
