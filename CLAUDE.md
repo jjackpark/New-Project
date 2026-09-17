@@ -47,10 +47,14 @@
 
 ## 전용 Subagent
 
-이 저장소는 `.claude/agents/`에 두 개의 전용 subagent를 정의해 둔다. 사용 시점과 강제 여부는 RULES.md §7을 따른다.
+이 저장소는 `.claude/agents/`에 두 개의 전용 subagent를 정의해 둔다. 사용 시점과 강제 여부는 RULES.md §6을 따른다.
 
 - **`backlog-briefer`** (haiku) — 백로그 태스크 ID를 받아 쉬운 설명 + 관련 파일 목록을 조사해 `tasks/<ID>.md`의 `## 작업 노트`에 정리해 넣는다. 태스크를 `in_progress`로 돌리기 전에 호출한다.
 - **`adversarial-reviewer`** (opus) — 이번 작업에서 생성/변경한 파일에 대해 일부러 적대적인(트집 잡는) 피드백만 준다. 파일을 고치지는 않는다. 파일을 만들거나 고친 직후, 특히 `review`/`done`으로 넘기기 전에 호출한다.
+
+## 백로그 대시보드
+
+`node scripts/dashboard/server.js` (npm 의존성 없음, Node 내장 모듈만 사용)로 실행하면 `http://localhost:4600`에서 백로그 현황을 볼 수 있다. 브라우저가 4초 간격으로 `/api/backlog`를 폴링해 KPI/단계별 진행률/상태 필터/태스크 표/선택한 태스크의 연결 문서(`tasks/<ID>.md`)를 실시간으로 갱신한다. 조회 전용이며 `backlog.json`을 쓰지 않는다 — 상태 변경은 여전히 `backlog-cli.js`로 한다. 자세한 사항은 RULES.md §7.
 
 ## 이 저장소에서 작업할 때
 

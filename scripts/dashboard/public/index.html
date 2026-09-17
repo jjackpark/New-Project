@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Setup Manager 백로그 대시보드</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <span class="brand-line">Setup Manager</span>
+        <span class="brand-sub">백로그 대시보드</span>
+      </div>
+      <nav class="phase-nav" id="phaseNav" aria-label="단계 필터"></nav>
+      <div class="sidebar-footer">
+        <span class="live-dot" id="liveDot"></span>
+        <span id="liveText">연결 중...</span>
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="topbar">
+        <div>
+          <h1>전체 현황</h1>
+          <p class="subtitle">backlog.json 기준, 4초마다 자동 갱신</p>
+        </div>
+        <div class="topbar-meta">
+          <input id="searchInput" class="search" type="search" placeholder="ID 또는 제목 검색" />
+          <span class="updated" id="updatedAt">-</span>
+        </div>
+      </header>
+
+      <section class="kpi-row" id="kpiRow"></section>
+
+      <section class="panel phase-progress">
+        <h2>단계별 진행률</h2>
+        <div id="phaseProgress"></div>
+      </section>
+
+      <section class="status-filter">
+        <div class="status-chips" id="statusChips"></div>
+      </section>
+
+      <section class="content-split">
+        <div class="panel task-table-wrap">
+          <table class="task-table">
+            <thead>
+              <tr>
+                <th>ID</th><th>상태</th><th>단계</th><th>우선순위</th><th>제목</th><th>예상</th><th>의존성</th>
+              </tr>
+            </thead>
+            <tbody id="taskTableBody"></tbody>
+          </table>
+        </div>
+
+        <aside class="panel detail-panel">
+          <div class="detail-empty" id="detailEmpty">행을 선택하면 세부 정보와 연결 문서가 여기 표시됩니다.</div>
+          <div class="detail-content" id="detailContent" hidden></div>
+        </aside>
+      </section>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
