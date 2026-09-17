@@ -924,7 +924,7 @@
       "doc": "tasks/T049.md",
       "phase": "4-extension",
       "priority": 4,
-      "status": "todo",
+      "status": "in_progress",
       "estimated_minutes": 30,
       "dependencies": [
         "T012"
@@ -933,7 +933,8 @@
         "api",
         "photos",
         "file-storage"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T050",
