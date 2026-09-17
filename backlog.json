@@ -48,11 +48,13 @@
       "status": "todo",
       "estimated_minutes": 30,
       "dependencies": [
-        "T001"
+        "T001",
+        "T007"
       ],
       "tags": [
         "scaffold"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T003",
@@ -132,12 +134,13 @@
       "status": "todo",
       "estimated_minutes": 30,
       "dependencies": [
-        "T002"
+        "T001"
       ],
       "tags": [
         "packaging",
         "deployment"
-      ]
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T008",
