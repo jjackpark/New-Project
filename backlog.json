@@ -62,7 +62,7 @@
       "doc": "tasks/T003.md",
       "phase": "0-foundation",
       "priority": "critical",
-      "status": "in_progress",
+      "status": "done",
       "estimated_minutes": 30,
       "dependencies": [
         "T002"
