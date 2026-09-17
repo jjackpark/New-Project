@@ -48,11 +48,14 @@ function loadBacklog() {
   return JSON.parse(raw);
 }
 
+const BOM = String.fromCharCode(0xfeff);
+
 function docContent(task) {
   const p = path.join(ROOT, task.doc);
   if (!fs.existsSync(p)) return "";
   // gen-task-docs.ps1 (Windows PowerShell 5.1) writes UTF-8 with a BOM.
-  return fs.readFileSync(p, "utf8").replace(/^﻿/, "");
+  const text = fs.readFileSync(p, "utf8");
+  return text.startsWith(BOM) ? text.slice(BOM.length) : text;
 }
 
 function buildPayload() {

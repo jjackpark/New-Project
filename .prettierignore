@@ -1,0 +1,15 @@
+node_modules/
+dist/
+package-lock.json
+
+# pre-existing repo tooling/docs — not part of T002's scope, left as-is to
+# avoid an unrelated repo-wide reformat diff. New code under src/, web/, and
+# the new scripts/bundle.js / scripts/package-exe.js is formatted.
+*.md
+tasks/
+backlog.json
+.claude/
+scripts/backlog-cli.js
+scripts/gen-task-docs.ps1
+scripts/hooks/
+scripts/dashboard/
