@@ -924,7 +924,7 @@
       "doc": "tasks/T049.md",
       "phase": "4-extension",
       "priority": 4,
-      "status": "in_progress",
+      "status": "blocked_decision",
       "estimated_minutes": 30,
       "dependencies": [
         "T012"
