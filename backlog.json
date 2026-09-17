@@ -29,10 +29,14 @@
       "doc": "tasks/T001.md",
       "phase": "0-foundation",
       "priority": "critical",
-      "status": "todo",
+      "status": "in_progress",
       "estimated_minutes": 30,
       "dependencies": [],
-      "tags": ["architecture", "decision"]
+      "tags": [
+        "architecture",
+        "decision"
+      ],
+      "updated_at": "2026-09-17"
     },
     {
       "id": "T002",
@@ -43,8 +47,12 @@
       "priority": "critical",
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T001"],
-      "tags": ["scaffold"]
+      "dependencies": [
+        "T001"
+      ],
+      "tags": [
+        "scaffold"
+      ]
     },
     {
       "id": "T003",
@@ -55,8 +63,13 @@
       "priority": "critical",
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T002"],
-      "tags": ["db", "schema"]
+      "dependencies": [
+        "T002"
+      ],
+      "tags": [
+        "db",
+        "schema"
+      ]
     },
     {
       "id": "T004",
@@ -67,8 +80,13 @@
       "priority": "critical",
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T003"],
-      "tags": ["auth", "session"]
+      "dependencies": [
+        "T003"
+      ],
+      "tags": [
+        "auth",
+        "session"
+      ]
     },
     {
       "id": "T005",
@@ -79,8 +97,13 @@
       "priority": "critical",
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T002"],
-      "tags": ["ui", "layout"]
+      "dependencies": [
+        "T002"
+      ],
+      "tags": [
+        "ui",
+        "layout"
+      ]
     },
     {
       "id": "T006",
@@ -91,8 +114,13 @@
       "priority": "critical",
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T005"],
-      "tags": ["state", "project-scope"]
+      "dependencies": [
+        "T005"
+      ],
+      "tags": [
+        "state",
+        "project-scope"
+      ]
     },
     {
       "id": "T007",
@@ -103,8 +131,13 @@
       "priority": "critical",
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T002"],
-      "tags": ["packaging", "deployment"]
+      "dependencies": [
+        "T002"
+      ],
+      "tags": [
+        "packaging",
+        "deployment"
+      ]
     },
     {
       "id": "T008",
@@ -115,8 +148,14 @@
       "priority": "critical",
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T005"],
-      "tags": ["ui", "component", "enum"]
+      "dependencies": [
+        "T005"
+      ],
+      "tags": [
+        "ui",
+        "component",
+        "enum"
+      ]
     },
     {
       "id": "T009",
@@ -127,8 +166,14 @@
       "priority": "critical",
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T005"],
-      "tags": ["ui", "component", "ux"]
+      "dependencies": [
+        "T005"
+      ],
+      "tags": [
+        "ui",
+        "component",
+        "ux"
+      ]
     },
     {
       "id": "T010",
@@ -139,8 +184,13 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T003"],
-      "tags": ["api", "users"]
+      "dependencies": [
+        "T003"
+      ],
+      "tags": [
+        "api",
+        "users"
+      ]
     },
     {
       "id": "T011",
@@ -151,8 +201,15 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T010", "T005"],
-      "tags": ["ui", "settings", "users"]
+      "dependencies": [
+        "T010",
+        "T005"
+      ],
+      "tags": [
+        "ui",
+        "settings",
+        "users"
+      ]
     },
     {
       "id": "T012",
@@ -163,8 +220,13 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T003"],
-      "tags": ["api", "projects"]
+      "dependencies": [
+        "T003"
+      ],
+      "tags": [
+        "api",
+        "projects"
+      ]
     },
     {
       "id": "T013",
@@ -175,8 +237,14 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T012", "T006"],
-      "tags": ["ui", "projects"]
+      "dependencies": [
+        "T012",
+        "T006"
+      ],
+      "tags": [
+        "ui",
+        "projects"
+      ]
     },
     {
       "id": "T014",
@@ -187,8 +255,14 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T003", "T012"],
-      "tags": ["api", "equipment"]
+      "dependencies": [
+        "T003",
+        "T012"
+      ],
+      "tags": [
+        "api",
+        "equipment"
+      ]
     },
     {
       "id": "T015",
@@ -199,8 +273,15 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T014", "T013", "T008"],
-      "tags": ["ui", "equipment"]
+      "dependencies": [
+        "T014",
+        "T013",
+        "T008"
+      ],
+      "tags": [
+        "ui",
+        "equipment"
+      ]
     },
     {
       "id": "T016",
@@ -211,8 +292,15 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T015", "T009"],
-      "tags": ["ui", "equipment", "form"]
+      "dependencies": [
+        "T015",
+        "T009"
+      ],
+      "tags": [
+        "ui",
+        "equipment",
+        "form"
+      ]
     },
     {
       "id": "T017",
@@ -223,8 +311,14 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T003", "T012"],
-      "tags": ["api", "vendors"]
+      "dependencies": [
+        "T003",
+        "T012"
+      ],
+      "tags": [
+        "api",
+        "vendors"
+      ]
     },
     {
       "id": "T018",
@@ -235,8 +329,13 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T017"],
-      "tags": ["api", "personnel"]
+      "dependencies": [
+        "T017"
+      ],
+      "tags": [
+        "api",
+        "personnel"
+      ]
     },
     {
       "id": "T019",
@@ -247,8 +346,14 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T017", "T013"],
-      "tags": ["ui", "vendors"]
+      "dependencies": [
+        "T017",
+        "T013"
+      ],
+      "tags": [
+        "ui",
+        "vendors"
+      ]
     },
     {
       "id": "T020",
@@ -259,8 +364,14 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T018", "T019"],
-      "tags": ["ui", "personnel"]
+      "dependencies": [
+        "T018",
+        "T019"
+      ],
+      "tags": [
+        "ui",
+        "personnel"
+      ]
     },
     {
       "id": "T021",
@@ -271,8 +382,14 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T003", "T012"],
-      "tags": ["api", "role-options"]
+      "dependencies": [
+        "T003",
+        "T012"
+      ],
+      "tags": [
+        "api",
+        "role-options"
+      ]
     },
     {
       "id": "T022",
@@ -283,8 +400,13 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T021"],
-      "tags": ["ui", "settings"]
+      "dependencies": [
+        "T021"
+      ],
+      "tags": [
+        "ui",
+        "settings"
+      ]
     },
     {
       "id": "T023",
@@ -295,8 +417,16 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T003", "T012"],
-      "tags": ["api", "ui", "settings", "master-plan"]
+      "dependencies": [
+        "T003",
+        "T012"
+      ],
+      "tags": [
+        "api",
+        "ui",
+        "settings",
+        "master-plan"
+      ]
     },
     {
       "id": "T024",
@@ -307,8 +437,13 @@
       "priority": 1,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T018"],
-      "tags": ["ui", "component"]
+      "dependencies": [
+        "T018"
+      ],
+      "tags": [
+        "ui",
+        "component"
+      ]
     },
     {
       "id": "T025",
@@ -319,8 +454,13 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T023"],
-      "tags": ["api", "master-plan"]
+      "dependencies": [
+        "T023"
+      ],
+      "tags": [
+        "api",
+        "master-plan"
+      ]
     },
     {
       "id": "T026",
@@ -331,8 +471,13 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T025"],
-      "tags": ["ui", "master-plan"]
+      "dependencies": [
+        "T025"
+      ],
+      "tags": [
+        "ui",
+        "master-plan"
+      ]
     },
     {
       "id": "T027",
@@ -343,8 +488,15 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T026", "T024"],
-      "tags": ["ui", "form", "master-plan"]
+      "dependencies": [
+        "T026",
+        "T024"
+      ],
+      "tags": [
+        "ui",
+        "form",
+        "master-plan"
+      ]
     },
     {
       "id": "T028",
@@ -355,8 +507,13 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T014"],
-      "tags": ["api", "qual"]
+      "dependencies": [
+        "T014"
+      ],
+      "tags": [
+        "api",
+        "qual"
+      ]
     },
     {
       "id": "T029",
@@ -367,8 +524,13 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T028"],
-      "tags": ["api", "qual-run"]
+      "dependencies": [
+        "T028"
+      ],
+      "tags": [
+        "api",
+        "qual-run"
+      ]
     },
     {
       "id": "T030",
@@ -379,8 +541,13 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T028"],
-      "tags": ["ui", "qual"]
+      "dependencies": [
+        "T028"
+      ],
+      "tags": [
+        "ui",
+        "qual"
+      ]
     },
     {
       "id": "T031",
@@ -391,8 +558,14 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T029", "T030"],
-      "tags": ["ui", "qual-run"]
+      "dependencies": [
+        "T029",
+        "T030"
+      ],
+      "tags": [
+        "ui",
+        "qual-run"
+      ]
     },
     {
       "id": "T032",
@@ -403,8 +576,14 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T014", "T024"],
-      "tags": ["api", "issues"]
+      "dependencies": [
+        "T014",
+        "T024"
+      ],
+      "tags": [
+        "api",
+        "issues"
+      ]
     },
     {
       "id": "T033",
@@ -415,8 +594,13 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T032"],
-      "tags": ["ui", "issues"]
+      "dependencies": [
+        "T032"
+      ],
+      "tags": [
+        "ui",
+        "issues"
+      ]
     },
     {
       "id": "T034",
@@ -427,8 +611,14 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T033"],
-      "tags": ["ui", "form", "issues"]
+      "dependencies": [
+        "T033"
+      ],
+      "tags": [
+        "ui",
+        "form",
+        "issues"
+      ]
     },
     {
       "id": "T035",
@@ -439,8 +629,13 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T014"],
-      "tags": ["api", "alarms"]
+      "dependencies": [
+        "T014"
+      ],
+      "tags": [
+        "api",
+        "alarms"
+      ]
     },
     {
       "id": "T036",
@@ -451,8 +646,13 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T035"],
-      "tags": ["ui", "alarms"]
+      "dependencies": [
+        "T035"
+      ],
+      "tags": [
+        "ui",
+        "alarms"
+      ]
     },
     {
       "id": "T037",
@@ -463,8 +663,13 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T017"],
-      "tags": ["api", "daily-report"]
+      "dependencies": [
+        "T017"
+      ],
+      "tags": [
+        "api",
+        "daily-report"
+      ]
     },
     {
       "id": "T038",
@@ -475,8 +680,14 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T037", "T019"],
-      "tags": ["logic", "daily-report"]
+      "dependencies": [
+        "T037",
+        "T019"
+      ],
+      "tags": [
+        "logic",
+        "daily-report"
+      ]
     },
     {
       "id": "T039",
@@ -487,8 +698,13 @@
       "priority": 2,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T038"],
-      "tags": ["ui", "daily-report"]
+      "dependencies": [
+        "T038"
+      ],
+      "tags": [
+        "ui",
+        "daily-report"
+      ]
     },
     {
       "id": "T040",
@@ -499,8 +715,16 @@
       "priority": 3,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T014", "T032", "T035", "T037"],
-      "tags": ["api", "kpi"]
+      "dependencies": [
+        "T014",
+        "T032",
+        "T035",
+        "T037"
+      ],
+      "tags": [
+        "api",
+        "kpi"
+      ]
     },
     {
       "id": "T041",
@@ -511,8 +735,15 @@
       "priority": 3,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T040", "T049"],
-      "tags": ["api", "kpi", "photos"]
+      "dependencies": [
+        "T040",
+        "T049"
+      ],
+      "tags": [
+        "api",
+        "kpi",
+        "photos"
+      ]
     },
     {
       "id": "T042",
@@ -523,8 +754,13 @@
       "priority": 3,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T040"],
-      "tags": ["ui", "kpi"]
+      "dependencies": [
+        "T040"
+      ],
+      "tags": [
+        "ui",
+        "kpi"
+      ]
     },
     {
       "id": "T043",
@@ -535,8 +771,13 @@
       "priority": 3,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T040"],
-      "tags": ["ui", "dashboard"]
+      "dependencies": [
+        "T040"
+      ],
+      "tags": [
+        "ui",
+        "dashboard"
+      ]
     },
     {
       "id": "T044",
@@ -547,8 +788,13 @@
       "priority": 3,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T041"],
-      "tags": ["ui", "photos"]
+      "dependencies": [
+        "T041"
+      ],
+      "tags": [
+        "ui",
+        "photos"
+      ]
     },
     {
       "id": "T045",
@@ -559,8 +805,16 @@
       "priority": 3,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T037", "T032", "T035", "T025"],
-      "tags": ["logic", "report"]
+      "dependencies": [
+        "T037",
+        "T032",
+        "T035",
+        "T025"
+      ],
+      "tags": [
+        "logic",
+        "report"
+      ]
     },
     {
       "id": "T046",
@@ -571,8 +825,13 @@
       "priority": 3,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T045"],
-      "tags": ["ui", "report"]
+      "dependencies": [
+        "T045"
+      ],
+      "tags": [
+        "ui",
+        "report"
+      ]
     },
     {
       "id": "T047",
@@ -583,8 +842,15 @@
       "priority": 4,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T025", "T028", "T032"],
-      "tags": ["api", "calendar"]
+      "dependencies": [
+        "T025",
+        "T028",
+        "T032"
+      ],
+      "tags": [
+        "api",
+        "calendar"
+      ]
     },
     {
       "id": "T048",
@@ -595,8 +861,13 @@
       "priority": 4,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T047"],
-      "tags": ["ui", "calendar"]
+      "dependencies": [
+        "T047"
+      ],
+      "tags": [
+        "ui",
+        "calendar"
+      ]
     },
     {
       "id": "T049",
@@ -607,8 +878,14 @@
       "priority": 4,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T012"],
-      "tags": ["api", "photos", "file-storage"]
+      "dependencies": [
+        "T012"
+      ],
+      "tags": [
+        "api",
+        "photos",
+        "file-storage"
+      ]
     },
     {
       "id": "T050",
@@ -619,8 +896,13 @@
       "priority": 4,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T049"],
-      "tags": ["ui", "photos"]
+      "dependencies": [
+        "T049"
+      ],
+      "tags": [
+        "ui",
+        "photos"
+      ]
     },
     {
       "id": "T051",
@@ -631,8 +913,18 @@
       "priority": 4,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T014", "T032", "T035", "T025", "T028", "T037"],
-      "tags": ["api", "search"]
+      "dependencies": [
+        "T014",
+        "T032",
+        "T035",
+        "T025",
+        "T028",
+        "T037"
+      ],
+      "tags": [
+        "api",
+        "search"
+      ]
     },
     {
       "id": "T052",
@@ -643,8 +935,13 @@
       "priority": 4,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T051"],
-      "tags": ["ui", "search"]
+      "dependencies": [
+        "T051"
+      ],
+      "tags": [
+        "ui",
+        "search"
+      ]
     },
     {
       "id": "T053",
@@ -655,8 +952,15 @@
       "priority": 5,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T025", "T032", "T035"],
-      "tags": ["logic", "weekly-report"]
+      "dependencies": [
+        "T025",
+        "T032",
+        "T035"
+      ],
+      "tags": [
+        "logic",
+        "weekly-report"
+      ]
     },
     {
       "id": "T054",
@@ -667,8 +971,13 @@
       "priority": 5,
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T053"],
-      "tags": ["report", "ppt"]
+      "dependencies": [
+        "T053"
+      ],
+      "tags": [
+        "report",
+        "ppt"
+      ]
     },
     {
       "id": "T055",
@@ -679,8 +988,20 @@
       "priority": "qa",
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T015", "T019", "T020", "T026", "T030", "T033", "T036", "T039"],
-      "tags": ["qa", "ux"]
+      "dependencies": [
+        "T015",
+        "T019",
+        "T020",
+        "T026",
+        "T030",
+        "T033",
+        "T036",
+        "T039"
+      ],
+      "tags": [
+        "qa",
+        "ux"
+      ]
     },
     {
       "id": "T056",
@@ -691,8 +1012,15 @@
       "priority": "qa",
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T004", "T011"],
-      "tags": ["qa", "security", "auth"]
+      "dependencies": [
+        "T004",
+        "T011"
+      ],
+      "tags": [
+        "qa",
+        "security",
+        "auth"
+      ]
     },
     {
       "id": "T057",
@@ -703,8 +1031,15 @@
       "priority": "qa",
       "status": "todo",
       "estimated_minutes": 30,
-      "dependencies": ["T007", "T054"],
-      "tags": ["qa", "packaging", "release"]
+      "dependencies": [
+        "T007",
+        "T054"
+      ],
+      "tags": [
+        "qa",
+        "packaging",
+        "release"
+      ]
     }
   ]
 }
